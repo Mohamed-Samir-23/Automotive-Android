@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/samir/Desktop/Automotive-Android/C++/01_Session/labs/lab1_strings",
-      "program": "/home/samir/Desktop/Automotive-Android/C++/01_Session/labs/lab1_strings/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

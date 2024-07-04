@@ -25,7 +25,7 @@ int main()
     for(int  i =0 ; i <number_name ; i++)
     {
         cout << "Please enter Names NO." << i +1 << endl;
-        fgets(temp, sizeof(temp), stdin);
+        cin>>temp;
         strcpy(arr[i] , temp);
     }
 
@@ -33,7 +33,7 @@ int main()
 
     for(int  i =0 ; i <number_name ; i++)
     {
-        printf("%s" , arr[i]);
+        printf("%s\n" , arr[i]);
     }
 
     return 0;
