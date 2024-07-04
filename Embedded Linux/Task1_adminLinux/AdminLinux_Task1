@@ -1,0 +1,57 @@
+1-Red Hat,Ubuntu,Fedora
+--------------------------------------------------------------------------------------------
+2-man command is used to show us the manual pages which contains useful information about the commands
+--------------------------------------------------------------------------------------------
+3-rm is used to remove files and directories,rmdir is used to remove embty directories
+--------------------------------------------------------------------------------------------
+4-
+mkdir dir1 docs Decuments
+touch  docs/mycv
+touch  Documents/OldFiles
+cd dir1/
+mkdir dir11 dir12
+touch dir11/file1
+
+a-rm dir1/dir11 
+rm: cannot remove 'dir1/dir11': Is a directory
+I overcame this by using the -r argument for thr rm command which worked fine
+
+
+b-rmdir  -p  Decuments/
+rmdir: failed to remove 'Decuments/': Directory not empty
+
+
+c-/home/samir/Desktop/Automotive-Android/Embedded Linux/Task1_adminLinux/docs/mycv
+
+--------------------------------------------------------------------------------------------
+5- cp /etc/passwd ~/mypasswd
+--------------------------------------------------------------------------------------------
+6- mv mypasswd oldpasswd
+--------------------------------------------------------------------------------------------
+7-
+cd
+cd /home
+cd ~
+cd ../../home/
+--------------------------------------------------------------------------------------------
+8- ls /usr/bin/w*
+--------------------------------------------------------------------------------------------
+9- internal shell command,alias,external command.
+--------------------------------------------------------------------------------------------
+10-
+ls /usr/bin/c*
+Copy code
+--------------------------------------------------------------------------------------------
+11-cat filename.txt
+--------------------------------------------------------------------------------------------
+12-apropos file
+--------------------------------------------------------------------------------------------
+13-
+#!/bin/bash
+mkdir ~/myDirectory
+mkdir ~/myDirectory/secondDirectory
+touch ~/myDirectory/secondDirectory/myNotePaper
+cp ~/myDirectory/secondDirectory/myNotePaper ~/myDirectory/
+mv ~/myDirectory/myNotePaper ~/myDirectory/myOldNotePaper
+
+
