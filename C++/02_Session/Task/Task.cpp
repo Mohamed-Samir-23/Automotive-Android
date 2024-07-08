@@ -1,16 +1,7 @@
 #include<iostream>
-
+#include <cmath>
+#include "Task.hpp"
 using namespace std;
-
-int main (void)
-{
-
-
-
-
-    return  0;
-}
-
 
 void question_1 (void)
 {
@@ -46,9 +37,65 @@ void question_2 (void)
 
 void question_3 (void)
 {
+    int op;    
+    int num1;
+    cout << "1) Decimal to Binary" << endl;
+    cout << "2) Binary to Decimal" << endl;
+    cout << "Please, Enter the operation: ";
+    cin >> op;  
+    cout << "Please, Enter a number: ";
+    cin >> num1;  
+    switch (op)
+    {
+        case 1:
+            decimalToBinary(num1);  
+            break;
+        case 2:
+            BinaryTodecimal(num1);  
+            break;
+        default:
+            cout << "Invalid operation" << endl;  
+            break;
+    }
+    
+}
 
+void decimalToBinary(int num)
+{
+    int arr[32];  
+    int i = 0;
+
+
+    while (num > 0)
+    {
+        arr[i] = num % 2; 
+        num = num / 2;     
+        i++;
+    }
+
+  
+    cout << "Binary is = ";
+    for (int j = i - 1; j >= 0; j--)
+    {
+        cout << arr[j];  
+    }
+    cout << endl;
+}
+
+void BinaryTodecimal(int num)
+{
+    int dec = 0, i = 0, rem;
 
     
+    while (num != 0)
+    {
+        rem = num % 10;          
+        num /= 10;               
+        dec += rem * pow(2, i);  
+        ++i;                     
+    }
+
+    cout << "Decimal value: " << dec << endl; 
 }
 
 
@@ -66,4 +113,16 @@ void question_4 (void)
 
     cout << "it will take " << year << " years to reach one million." << endl;
 
+}
+
+
+int main (void)
+{
+
+    question_1();
+    question_2();
+    question_3();
+    question_4();
+
+    return  0;
 }
