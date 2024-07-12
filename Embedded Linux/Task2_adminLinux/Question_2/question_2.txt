@@ -1,0 +1,1 @@
+After adding binary_search file in /usr/local/bin and execute it from other directories.When you type a command in the terminal, the system searches for the executable in the directories listed in the $PATH. By moving the binary to /usr/local/bin, it becomes accessible from any location because /usr/local/bin is part of the PATH.

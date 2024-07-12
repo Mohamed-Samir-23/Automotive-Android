@@ -1,0 +1,1 @@
+Not allowed to create a hard link of a file to a different filesystem

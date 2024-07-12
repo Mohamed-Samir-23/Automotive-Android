@@ -1,0 +1,90 @@
+commands.list
+    1  code.
+    2  code .
+    3  cd Downloads/
+    4  ls
+    5  sudo dpkg -i code_1.91.0-1719861592_amd64.deb 
+    6  code .
+    7  sudo dpkg -i code_1.91.0-1719861592_amd64.deb 
+    8  cd Downloads/
+    9  sudo dpkg -i code_1.91.0-1719861592_amd64.deb 
+   10  code .
+   11  sudo apt-get update
+   12  sudo apt install gcc
+   13  g++ --version
+   14  sudo apt install g++
+   15  sudo apt install gdb
+   16  g++ --version
+   17  gdb --version
+   18  sudo apt install build-essential 
+   19  sudo apt-get remove code
+   20  cd Downloads/
+   21  sudo dpkg -i code_1.91.0-1719861592_amd64.deb 
+   22  sudo apt-get remove code
+   23  cd Downloads/
+   24  sudo dpkg -i code_1.91.0-1719861592_amd64.deb 
+   25  git --version
+   26  sudo apt update && sudo apt upgrade
+   27  zoom-client
+   28  sudo apt update
+   29  cd Downloads/
+   30  sudo dpkg -i microsoft-edge-stable_126.0.2592.87-1_amd64.deb 
+   31  make 
+   32  tree
+   33  sudo snap install tree
+   34  tree
+   35  date
+   36  sudo apt update
+   37  vi binary_search
+   38  touch command_vi.txt
+   39  vi binary_search.c
+   40  vi binary_search
+   41  git clone https://github.com/Mohamed-Samir-23/Automotive-Android.git
+   42  ls
+   43  vi binary_search.cpp
+   44  vi binary_search.c
+   45  vim
+   46  sudo apt install vim
+   47  claer
+   48  clear
+   49  vim binary_search.c 
+   50  ls
+   51  ./binary_search 
+   52  code .
+   53  vim binary_search.c 
+   54  touch question_2.txt
+   55  gcc -o binary_search binary_search.c 
+   56  ./binary_search 
+   57  mv binary_search /usr/local/bin/
+   58  sudo mv binary_search /usr/local/bin/
+   59  cd /usr/local/bin/
+   60  ls
+   61  ./binary_search 
+   62  cd ~
+   63  ./binary_search 
+   64  binary_search 
+   65  echo PATH
+   66  echo $PATH
+   67  cat /etc/shells 
+   68  clear
+   69  printenv
+   70  clear
+   71  echo $SHELL
+   72  echo  used to continue command in next line
+   73  alias PrintPath="echo $PATH"
+   74  PrintPath
+   75  gnome-terminal &
+   76  touch bash_script_task3
+   77  chmode --help
+   78  chmod --help
+   79  man chmod
+   80  ls
+   81  mkdir tmp
+   82  ls
+   83  cd tmp/
+   84  touch commands.list
+   85  ls
+   86  history
+   87* 
+   88  clear
+   89  (ls;history)>commands.list 
