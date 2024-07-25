@@ -325,7 +325,7 @@ run qemu
 sudo qemu-system-arm -M vexpress-a9 -nographic -net tap,script=./qemu_if_tap_up.sh -net nic -kernel u-boot -sd ~/Desktop/iti-image/samir_img1/samir_img1.img
 
 ``` 
-![Getting Started](./Pictures/Screenshot%20from%202024-07-25%2002-30-03.png)
+![Getting Started](./Pictures/Screenshot%20from%202024-07-25%2004-26-10.png)
 
 ------------------------------------------------------------------
 
