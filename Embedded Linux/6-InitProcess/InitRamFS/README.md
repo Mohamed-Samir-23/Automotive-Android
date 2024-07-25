@@ -293,7 +293,7 @@ according to Mastering Embedded linux programing book
 ``` 
 edit bootargs
 
-edit: console=ttyS0,115200 root=/dev/ram0 rdinit=/bin/sh    
+edit: console=ttyS0,115200 rdinit=/bin/sh    
 
 ```
 ![Getting Started](./Pictures/Screenshot%20from%202024-07-25%2002-50-57.png)
