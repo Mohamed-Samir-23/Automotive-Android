@@ -336,7 +336,7 @@ set bootargs
 ``` 
 edit bootargs
 
-setenv bootargs 'console=ttyAMA0 root=/dev/mmcblk0p2 rootfstype=ext4 rw rootwait init=/sbin/init'
+setenv bootargs 'setenv bootargs console=ttyAMA0,115200 rdinit=/bin/sh'
 
 ``` 
 
