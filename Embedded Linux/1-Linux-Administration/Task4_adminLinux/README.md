@@ -58,6 +58,7 @@ sudo userdel yourName
 sudo groupdel pgroup
 ```
 ![Getting Started](./Pictures/5.png)
+
 ***State the difference between adduser and useradd with example shown.***
 ## adduser:
 
